@@ -1,0 +1,36 @@
+.menuListItem {
+	background: #2d80ed; /* Old browsers */
+	background: -moz-linear-gradient(left, #2d80ed 0%, #2c74f8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #2d80ed 0%,#2c74f8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #2d80ed 0%,#2c74f8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d80ed', endColorstr='#2c74e8',GradientType=1 ); /* IE6-9 */
+
+
+	width: 100%;
+	height: 100px;
+	padding: 40px;
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	position: relative;
+	border-bottom: 1px solid rgba(20,20,200,.3);
+
+	.menuIcon {
+		width: 60px;
+		position: absolute;
+		right: 40px;
+		top: 20px;
+		opacity: 0.3;
+		filter: invert(100%) grayscale(100%) contrast(1000%);
+		/*filter: grayscale(100%);*/
+		/*filter: grayscale(100);*/
+	}
+
+}
+
+.adsWrapper {
+	img {
+		max-width: 100%;
+		margin: 20px 0;
+	}
+}
